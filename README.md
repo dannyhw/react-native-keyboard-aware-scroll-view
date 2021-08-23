@@ -1,5 +1,7 @@
 # react-native-keyboard-aware-scroll-view
 
+A React Native ScrollView component that resizes when the keyboard appears. This is a fork of react-native-keyboard-aware-scroll-view that should work with 0.65.1.
+
 <p>
 <img src="https://travis-ci.org/APSL/react-native-keyboard-aware-scroll-view.svg?branch=master" />
 <img src="https://img.shields.io/npm/dm/react-native-keyboard-aware-scroll-view.svg" />
