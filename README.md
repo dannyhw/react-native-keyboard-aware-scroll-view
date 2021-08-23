@@ -27,11 +27,11 @@ A ScrollView component that handles keyboard appearance and automatically scroll
 Installation can be done through `npm` or `yarn`:
 
 ```shell
-npm i react-native-keyboard-aware-scroll-view --save
+npm i react-native-keyboard-aware-scrolling-view --save
 ```
 
 ```shell
-yarn add react-native-keyboard-aware-scroll-view
+yarn add react-native-keyboard-aware-scrolling-view
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ Import `react-native-keyboard-aware-scroll-view` and wrap your content inside
 it:
 
 ```js
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scrolling-view'
 ```
 
 ```jsx
@@ -213,6 +213,6 @@ MIT.
 
 ## Author
 
-Álvaro Medina Ballester `<amedina at apsl.net>`
+original author: Álvaro Medina Ballester `<amedina at apsl.net>`
 
-Built with 💛 by [APSL](https://github.com/apsl).
+fork author: Daniel Williams
