@@ -1,13 +1,11 @@
-/* @flow */
-
-import listenToKeyboardEvents from './lib/KeyboardAwareHOC'
-import KeyboardAwareScrollView from './lib/KeyboardAwareScrollView'
-import KeyboardAwareFlatList from './lib/KeyboardAwareFlatList'
-import KeyboardAwareSectionList from './lib/KeyboardAwareSectionList'
+import listenToKeyboardEvents from "./dist/KeyboardAwareHOC";
+import KeyboardAwareScrollView from "./dist/KeyboardAwareScrollView";
+import KeyboardAwareFlatList from "./dist/KeyboardAwareFlatList";
+import KeyboardAwareSectionList from "./dist/KeyboardAwareSectionList";
 
 export {
   listenToKeyboardEvents,
   KeyboardAwareFlatList,
   KeyboardAwareSectionList,
-  KeyboardAwareScrollView
-}
+  KeyboardAwareScrollView,
+};
