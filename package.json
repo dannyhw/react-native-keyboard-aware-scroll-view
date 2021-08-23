@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-aware-scrolling-view",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A React Native ScrollView component that resizes when the keyboard appears. A fork of react-native-keyboard-aware-scroll-view",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "yarn run lint",
     "check": "tsc"
   },
-  "types": "lib/index.d.ts",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dannyhw/react-native-keyboard-aware-scroll-view.git"
