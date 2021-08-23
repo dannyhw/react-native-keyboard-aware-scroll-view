@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import PropTypes from "prop-types";
 import {
   Keyboard,
@@ -42,6 +42,7 @@ export type KeyboardAwareHOCProps = {
   onKeyboardDidHide: KeyboardEventListener;
   onKeyboardWillChangeFrame: KeyboardEventListener;
   onKeyboardDidChangeFrame: KeyboardEventListener;
+  children: ReactNode[] | ReactNode;
 };
 export type KeyboardAwareHOCState = {
   keyboardSpace: number;
@@ -167,6 +168,7 @@ function KeyboardAwareHOC(
       onKeyboardDidHide: Function,
       onKeyboardWillChangeFrame: Function,
       onKeyboardDidChangeFrame: Function,
+      children: PropTypes.element,
     };
 
     // HOC options are used to init default props, so that these options can be overriden with component props
